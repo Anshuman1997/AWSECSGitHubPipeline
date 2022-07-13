@@ -18,4 +18,10 @@ public class BookController {
         return "Show Book";
     }
 
+    @GetMapping("/poc")
+    public String testPoc() {
+        System.out.println("Testing..");
+        return "Test";
+    }
+
 }
